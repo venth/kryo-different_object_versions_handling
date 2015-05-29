@@ -205,7 +205,25 @@
                                 </artifactItem>
                                 <artifactItem>
                                     <groupId>org.venth.comparison.serialization</groupId>
-                                    <artifactId>model-version2</artifactId>
+                                    <artifactId>model-version-additional-fields</artifactId>
+                                    <version>1.0-SNAPSHOT</version>
+                                    <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>org.venth.comparison.serialization</groupId>
+                                    <artifactId>model-version-missing-field</artifactId>
+                                    <version>1.0-SNAPSHOT</version>
+                                    <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>org.venth.comparison.serialization</groupId>
+                                    <artifactId>model-version-different-sequence</artifactId>
+                                    <version>1.0-SNAPSHOT</version>
+                                    <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>org.venth.comparison.serialization</groupId>
+                                    <artifactId>model-version-changed-field-type</artifactId>
                                     <version>1.0-SNAPSHOT</version>
                                     <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
                                 </artifactItem>

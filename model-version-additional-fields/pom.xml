@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.venth.comparison.serialization</groupId>
-    <artifactId>model-version2</artifactId>
+    <artifactId>model-version-additional-fields</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 

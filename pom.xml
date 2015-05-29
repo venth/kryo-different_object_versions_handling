@@ -18,7 +18,10 @@
 
     <modules>
         <module>model-version1</module>
-        <module>model-version2</module>
+        <module>model-version-additional-fields</module>
+        <module>model-version-missing-field</module>
+        <module>model-version-different-sequence</module>
+        <module>model-version-changed-field-type</module>
         <module>test</module>
     </modules>
 
