@@ -4,6 +4,14 @@ import spock.lang.Specification
 
 /**
  * @author Venth on 29/05/2015
+ *
+ * Please note, that all the scenarios are based on
+ * the same model class.
+ *
+ * The model class contains different sets of fields in different
+ * versions.
+ *
+ * All the classes have the same serial version uuid.
  */
 class JavaSerializationTest extends Specification {
     def "object deserialized to new version of class sets new fields to null"() {
